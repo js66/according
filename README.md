@@ -1,7 +1,7 @@
 # according
 一个可以折叠的手风琴jquery组件
 
-#插件演示![演示效果Demo]http://js66.github.io/according/
+#插件演示![演示效果Demo](http://js66.github.io/according/)
 
 #用法
 
