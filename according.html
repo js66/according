@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无标题文档</title>
+		<style>
+			*{ margin:0; padding:0;}
+			body{ padding:50px;}
+			#acc{border: 1px solid #e0e0e0;}
+			h3{ height:35px; line-height:35px; background-color:#f6f6f6; border-top: 1px solid #e0e0e0;padding: 0 25px;border-bottom: 1px solid #e0e0e0;}
+			h3.active{ border-top: none; background-color:dodgerblue; color: #fff;}
+
+			.acc div{ height:300px; background-color:#fff;}
+		</style>
+		
+		<script src="js/jquery-1.9.1.min.js"></script>
+
+		<script src="js/jquery.according.js"></script>
+		<script>
+			$(function(){
+				var unload=true;
+				$("#acc,#acc2").according({"start":0});
+				
+			});
+		</script>
+		
+	</head>
+
+	<body>
+
+		<div class="acc" id="acc">
+			<h3>header</h3>
+			<div class="content">wo 是内容</div>
+			<h3>header2</h3>
+			<div class="content">wo 是内容2</div>
+			<h3 id="loadbtn">header3</h3>
+			<div class="content">wo 是内容3</div>
+		</div>
+
+	</body>
+
+</html>
