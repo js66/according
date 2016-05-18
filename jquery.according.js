@@ -16,6 +16,7 @@ $.fn.extend({
 		})//each  header
 		function showAcc(){
 			var ind=obj.children(":header").index($(this));
+			if($(this).hasClass("active")){return}
 			
 			obj.children(":header.active").removeClass("active");
 			obj.children(".content:visible").slideUp();
